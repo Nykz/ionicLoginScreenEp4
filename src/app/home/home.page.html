@@ -1,0 +1,44 @@
+<ion-content [fullscreen]="true">
+
+  <ion-list class="ion-margin" lines="full">
+    <ion-list-header>
+      <ion-label color="white">
+        Log into
+        <ion-text class="ion-margin-bottom"><p>your account</p></ion-text>
+      </ion-label>
+    </ion-list-header>
+    <ion-item-group class="ion-margin-horizontal">
+      <ion-item class="ion-margin-vertical">
+        <ion-label color="white" class="ion-text-wrap" position="stacked">Username/Email</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item class="ion-margin-vertical">
+        <ion-label color="white" class="ion-text-wrap" position="stacked">Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-row class="ion-margin-bottom">
+        <ion-col size="12" class="alignItems">
+          <div align="left" class="alignItems">
+            <ion-checkbox></ion-checkbox>
+            <ion-note color="light">Remember me</ion-note>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-item-group>
+    <div class="marginTop">
+      <ion-button color="dark" expand="block" class="ion-margin" shape="round" type="submit">Log In</ion-button>
+      <ion-button color="white" expand="block" class="ion-margin-horizontal" shape="round" type="button">
+        <ion-icon name="logo-facebook" slot="start"></ion-icon>
+        Log in with Facebook
+      </ion-button>
+    </div>
+  </ion-list>
+
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-text class="ion-margin ion-padding-start" color="white">Don't have an account? <a href="">Sign Up</a></ion-text>
+  </ion-toolbar>
+</ion-footer>

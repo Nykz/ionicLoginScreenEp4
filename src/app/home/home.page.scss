@@ -1,0 +1,48 @@
+ion-content {
+  --background: linear-gradient(30deg, #bcaca0 20%,#c9c8c4 80%);
+}
+
+ion-list {
+  background: transparent;
+  transform: translateY(10vh);
+  ion-item {
+      --background: transparent;
+  }
+  ion-list-header {
+      height: 15vh;
+      margin-bottom: 5vh;
+      letter-spacing: 0.5px;
+      ion-label, p {
+          font-weight: bold;
+          font-size: 2rem;
+      }
+  }
+}
+
+.alignItems {
+  ion-checkbox, ion-note {
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+  ion-checkbox {
+      margin-right: 3vw;
+  }
+}
+
+.marginTop {
+  margin-top: 5vh;
+}
+
+ion-footer {
+  ion-toolbar {
+      --background: transparent;
+      ion-text {
+          font-size: 0.85rem;
+          a {
+              color: var(--ion-color-white);
+              text-decoration: underline;
+          }
+      }
+  }
+}
