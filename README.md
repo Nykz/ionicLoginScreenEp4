@@ -1,6 +1,10 @@
 # ionicLoginScreenEp4
 Fashion App Login Screen
 
+Watch the Full Episode on YouTube at https://www.youtube.com/watch?v=yiERfHoHHrk&list=PLixvNT19uDK6Fk6glTj18ONQRpCAVnY0G&index=6&ab_channel=CodingTechnyks
+
+<img src="https://github.com/Nykz/ionicLoginScreenEp4/blob/main/LOGIN4%20THUMBNAIL-min.png" width="200" height="400" />
+
 Steps to Setup this beautiful login screen in your system
 
 1.Download the zipped project
